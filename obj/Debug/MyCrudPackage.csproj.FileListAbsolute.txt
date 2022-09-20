@@ -1,0 +1,6 @@
+D:\Personal\Adarsh\MyProjects\Projects\MyCrudPackage\MyCrudPackage\obj\Debug\MyCrudPackage.csproj.AssemblyReference.cache
+D:\Personal\Adarsh\MyProjects\Projects\MyCrudPackage\MyCrudPackage\obj\Debug\MyCrudPackage.csproj.CoreCompileInputs.cache
+D:\Personal\Adarsh\MyProjects\Projects\MyCrudPackage\MyCrudPackage\bin\Debug\MyCrudPackage.dll
+D:\Personal\Adarsh\MyProjects\Projects\MyCrudPackage\MyCrudPackage\bin\Debug\MyCrudPackage.pdb
+D:\Personal\Adarsh\MyProjects\Projects\MyCrudPackage\MyCrudPackage\obj\Debug\MyCrudPackage.dll
+D:\Personal\Adarsh\MyProjects\Projects\MyCrudPackage\MyCrudPackage\obj\Debug\MyCrudPackage.pdb
