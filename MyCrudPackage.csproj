@@ -48,5 +48,8 @@
     <Content Include="bin\Release\nuget.exe" />
     <Content Include="nuget.exe" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
