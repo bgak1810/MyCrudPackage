@@ -12,6 +12,8 @@
 *.cs
 *.csproj
 *.nupkg
+*.exe
+*.md
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
