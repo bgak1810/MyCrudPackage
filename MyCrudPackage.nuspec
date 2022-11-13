@@ -3,15 +3,18 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>Adarsh_CrudPackage</title>
+    <title>Crud Package</title>
     <authors>Adarsh</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <!-- <icon>icon.png</icon> -->
     <projectUrl>https://github.com/bgak1810/MyCrudPackage.git/</projectUrl>
-    <description>Sample CRUD Operations</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Package helper to connect to the sqldatase and do the transactions</description>
+    <releaseNotes>get dataset,datatable,do the crud transactions</releaseNotes>
     <copyright>$copyright$</copyright>
-    <tags>Create Read Update Delete Operations</tags>
+    <tags>crud,create,insert,update,delete,get,read,datatable,dataset</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
   </metadata>
 </package>
