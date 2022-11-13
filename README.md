@@ -15,24 +15,24 @@ Scenario 1:
 Assuming you want to do a transaction to create / update / delete a record
 Model (From your Application)
 ------
-public class Employee&lt;br&gt;;
-{&lt;br&gt;
-	public string FirstName{get;set;}&lt;br&gt;
-	public string LastName{get;set;}&lt;br&gt;
-	public string MiddleName{get;set;}&lt;br&gt;
-	public int Age{get;set;}&lt;br&gt;
-	public bit Gender{get;set;}&lt;br&gt;
-}&lt;br&gt;
-you are forming this object in your creation screen (Employee.aspx.cs)&lt;br&gt;
+public class Employee&lt;/br&gt;;
+{&lt;/br&gt;
+	public string FirstName{get;set;}&lt;/br&gt;
+	public string LastName{get;set;}&lt;/br&gt;
+	public string MiddleName{get;set;}&lt;/br&gt;
+	public int Age{get;set;}&lt;/br&gt;
+	public bit Gender{get;set;}&lt;/br&gt;
+}&lt;/br&gt;
+you are forming this object in your creation screen (Employee.aspx.cs)&lt;/br&gt;
 
 Button_Click event
 --------------------
-Employee employee=new Employee();&lt;br&gt;
-employee.FirstName=txtFirstName.Text;&lt;br&gt;
-employee.LastName=txtLastName.Text;&lt;br&gt;
-employee.MiddleName=txtMiddleName.Text;&lt;br&gt;
-employee.Age=Convert.ToInt16(txtAge.Text);&lt;br&gt;
-employee.Gender=Convert.ToBoolean(rbdGender.Value);&lt;br&gt;
+Employee employee=new Employee();&lt;/br&gt;
+employee.FirstName=txtFirstName.Text;&lt;/br&gt;
+employee.LastName=txtLastName.Text;&lt;/br&gt;
+employee.MiddleName=txtMiddleName.Text;&lt;/br&gt;
+employee.Age=Convert.ToInt16(txtAge.Text);&lt;/br&gt;
+employee.Gender=Convert.ToBoolean(rbdGender.Value);&lt;/br&gt;
 
 here we call our MyCrudPackage
 -------------------------------
