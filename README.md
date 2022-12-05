@@ -43,28 +43,28 @@ Scenario 2:
 To receive data to a Dataset with parameters (multiple collection of select statement from stored proc / single)
 
 DataSet ds=new DataSet();
-ds=MyCrudPackage.CRUD.DBTransactions&lt;Employee&gt;(employee,&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
+ds=MyCrudPackage.CRUD.GetDataSet&lt;Employee&gt;(employee,&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
 
 Scenario 3:
 -----------
 To receive data to a Dataset without parameters (multiple collection of select statement from stored proc / single)
 
 DataSet ds=new DataSet();
-ds=MyCrudPackage.CRUD.DBTransactions(&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
+ds=MyCrudPackage.CRUD.GetDataSet(&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
 
 Scenario 4:
 -----------
 To receive data to a Datatable with parameters
 
 DataTable dt=new DataTable();
-dt=MyCrudPackage.CRUD.DBTransactions&lt;Employee&gt;(employee,&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
+dt=MyCrudPackage.CRUD.GetDataTable&lt;Employee&gt;(employee,&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
 
 Scenario 5:
 -----------
 To receive data to a Datatable without parameters 
 
 DataTable dt=new DataTable();
-dt=MyCrudPackage.CRUD.DBTransactions(&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
+dt=MyCrudPackage.CRUD.GetDataTable(&lt;Storedprocname&gt;,&lt;sqlconnectionstring&gt;);
 
 
 
